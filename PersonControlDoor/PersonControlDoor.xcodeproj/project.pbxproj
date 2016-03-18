@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DA51FA1C9A92180033E559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA51F91C9A92180033E559 /* main.m */; };
+		A6DA51FD1C9A92180033E559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA51FC1C9A92180033E559 /* AppDelegate.m */; };
+		A6DA52001C9A92180033E559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA51FF1C9A92180033E559 /* ViewController.m */; };
+		A6DA52031C9A92180033E559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DA52011C9A92180033E559 /* Main.storyboard */; };
+		A6DA52061C9A92180033E559 /* PersonControlDoor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6DA52041C9A92180033E559 /* PersonControlDoor.xcdatamodeld */; };
+		A6DA52081C9A92180033E559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DA52071C9A92180033E559 /* Assets.xcassets */; };
+		A6DA520B1C9A92180033E559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DA52091C9A92180033E559 /* LaunchScreen.storyboard */; };
+		A6DA52161C9A92190033E559 /* PersonControlDoorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA52151C9A92190033E559 /* PersonControlDoorTests.m */; };
+		A6DA52211C9A92190033E559 /* PersonControlDoorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA52201C9A92190033E559 /* PersonControlDoorUITests.m */; };
+		A6DA522F1C9A95360033E559 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DA522E1C9A95360033E559 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6DA52121C9A92190033E559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6DA51ED1C9A92180033E559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6DA51F41C9A92180033E559;
+			remoteInfo = PersonControlDoor;
+		};
+		A6DA521D1C9A92190033E559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6DA51ED1C9A92180033E559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6DA51F41C9A92180033E559;
+			remoteInfo = PersonControlDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6DA51F51C9A92180033E559 /* PersonControlDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonControlDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DA51F91C9A92180033E559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DA51FB1C9A92180033E559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6DA51FC1C9A92180033E559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6DA51FE1C9A92180033E559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6DA51FF1C9A92180033E559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6DA52021C9A92180033E559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6DA52051C9A92180033E559 /* PersonControlDoor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonControlDoor.xcdatamodel; sourceTree = "<group>"; };
+		A6DA52071C9A92180033E559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6DA520A1C9A92180033E559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6DA520C1C9A92180033E559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DA52111C9A92190033E559 /* PersonControlDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonControlDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DA52151C9A92190033E559 /* PersonControlDoorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonControlDoorTests.m; sourceTree = "<group>"; };
+		A6DA52171C9A92190033E559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DA521C1C9A92190033E559 /* PersonControlDoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonControlDoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DA52201C9A92190033E559 /* PersonControlDoorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonControlDoorUITests.m; sourceTree = "<group>"; };
+		A6DA52221C9A92190033E559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DA522E1C9A95360033E559 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DA51F21C9A92180033E559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DA522F1C9A95360033E559 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DA520E1C9A92190033E559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DA52191C9A92190033E559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DA51EC1C9A92180033E559 = {
+			isa = PBXGroup;
+			children = (
+				A6DA522E1C9A95360033E559 /* CoreBluetooth.framework */,
+				A6DA51F71C9A92180033E559 /* PersonControlDoor */,
+				A6DA52141C9A92190033E559 /* PersonControlDoorTests */,
+				A6DA521F1C9A92190033E559 /* PersonControlDoorUITests */,
+				A6DA51F61C9A92180033E559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DA51F61C9A92180033E559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DA51F51C9A92180033E559 /* PersonControlDoor.app */,
+				A6DA52111C9A92190033E559 /* PersonControlDoorTests.xctest */,
+				A6DA521C1C9A92190033E559 /* PersonControlDoorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DA51F71C9A92180033E559 /* PersonControlDoor */ = {
+			isa = PBXGroup;
+			children = (
+				A6DA51FB1C9A92180033E559 /* AppDelegate.h */,
+				A6DA51FC1C9A92180033E559 /* AppDelegate.m */,
+				A6DA51FE1C9A92180033E559 /* ViewController.h */,
+				A6DA51FF1C9A92180033E559 /* ViewController.m */,
+				A6DA52011C9A92180033E559 /* Main.storyboard */,
+				A6DA52071C9A92180033E559 /* Assets.xcassets */,
+				A6DA52091C9A92180033E559 /* LaunchScreen.storyboard */,
+				A6DA52041C9A92180033E559 /* PersonControlDoor.xcdatamodeld */,
+				A6DA51F81C9A92180033E559 /* Supporting Files */,
+			);
+			path = PersonControlDoor;
+			sourceTree = "<group>";
+		};
+		A6DA51F81C9A92180033E559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DA520C1C9A92180033E559 /* Info.plist */,
+				A6DA51F91C9A92180033E559 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6DA52141C9A92190033E559 /* PersonControlDoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6DA52151C9A92190033E559 /* PersonControlDoorTests.m */,
+				A6DA52171C9A92190033E559 /* Info.plist */,
+			);
+			path = PersonControlDoorTests;
+			sourceTree = "<group>";
+		};
+		A6DA521F1C9A92190033E559 /* PersonControlDoorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6DA52201C9A92190033E559 /* PersonControlDoorUITests.m */,
+				A6DA52221C9A92190033E559 /* Info.plist */,
+			);
+			path = PersonControlDoorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DA51F41C9A92180033E559 /* PersonControlDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DA52251C9A92190033E559 /* Build configuration list for PBXNativeTarget "PersonControlDoor" */;
+			buildPhases = (
+				A6DA51F11C9A92180033E559 /* Sources */,
+				A6DA51F21C9A92180033E559 /* Frameworks */,
+				A6DA51F31C9A92180033E559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonControlDoor;
+			productName = PersonControlDoor;
+			productReference = A6DA51F51C9A92180033E559 /* PersonControlDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6DA52101C9A92190033E559 /* PersonControlDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DA52281C9A92190033E559 /* Build configuration list for PBXNativeTarget "PersonControlDoorTests" */;
+			buildPhases = (
+				A6DA520D1C9A92190033E559 /* Sources */,
+				A6DA520E1C9A92190033E559 /* Frameworks */,
+				A6DA520F1C9A92190033E559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6DA52131C9A92190033E559 /* PBXTargetDependency */,
+			);
+			name = PersonControlDoorTests;
+			productName = PersonControlDoorTests;
+			productReference = A6DA52111C9A92190033E559 /* PersonControlDoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6DA521B1C9A92190033E559 /* PersonControlDoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DA522B1C9A92190033E559 /* Build configuration list for PBXNativeTarget "PersonControlDoorUITests" */;
+			buildPhases = (
+				A6DA52181C9A92190033E559 /* Sources */,
+				A6DA52191C9A92190033E559 /* Frameworks */,
+				A6DA521A1C9A92190033E559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6DA521E1C9A92190033E559 /* PBXTargetDependency */,
+			);
+			name = PersonControlDoorUITests;
+			productName = PersonControlDoorUITests;
+			productReference = A6DA521C1C9A92190033E559 /* PersonControlDoorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DA51ED1C9A92180033E559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PC_201310113421;
+				TargetAttributes = {
+					A6DA51F41C9A92180033E559 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A6DA52101C9A92190033E559 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A6DA51F41C9A92180033E559;
+					};
+					A6DA521B1C9A92190033E559 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A6DA51F41C9A92180033E559;
+					};
+				};
+			};
+			buildConfigurationList = A6DA51F01C9A92180033E559 /* Build configuration list for PBXProject "PersonControlDoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6DA51EC1C9A92180033E559;
+			productRefGroup = A6DA51F61C9A92180033E559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DA51F41C9A92180033E559 /* PersonControlDoor */,
+				A6DA52101C9A92190033E559 /* PersonControlDoorTests */,
+				A6DA521B1C9A92190033E559 /* PersonControlDoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DA51F31C9A92180033E559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DA520B1C9A92180033E559 /* LaunchScreen.storyboard in Resources */,
+				A6DA52081C9A92180033E559 /* Assets.xcassets in Resources */,
+				A6DA52031C9A92180033E559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DA520F1C9A92190033E559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DA521A1C9A92190033E559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DA51F11C9A92180033E559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DA52001C9A92180033E559 /* ViewController.m in Sources */,
+				A6DA51FD1C9A92180033E559 /* AppDelegate.m in Sources */,
+				A6DA52061C9A92180033E559 /* PersonControlDoor.xcdatamodeld in Sources */,
+				A6DA51FA1C9A92180033E559 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DA520D1C9A92190033E559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DA52161C9A92190033E559 /* PersonControlDoorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DA52181C9A92190033E559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DA52211C9A92190033E559 /* PersonControlDoorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6DA52131C9A92190033E559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6DA51F41C9A92180033E559 /* PersonControlDoor */;
+			targetProxy = A6DA52121C9A92190033E559 /* PBXContainerItemProxy */;
+		};
+		A6DA521E1C9A92190033E559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6DA51F41C9A92180033E559 /* PersonControlDoor */;
+			targetProxy = A6DA521D1C9A92190033E559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6DA52011C9A92180033E559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DA52021C9A92180033E559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6DA52091C9A92180033E559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DA520A1C9A92180033E559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DA52231C9A92190033E559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6DA52241C9A92190033E559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DA52261C9A92190033E559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonControlDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PersonControlDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6DA52271C9A92190033E559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonControlDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PersonControlDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6DA52291C9A92190033E559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersonControlDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PersonControlDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonControlDoor.app/PersonControlDoor";
+			};
+			name = Debug;
+		};
+		A6DA522A1C9A92190033E559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersonControlDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PersonControlDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonControlDoor.app/PersonControlDoor";
+			};
+			name = Release;
+		};
+		A6DA522C1C9A92190033E559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersonControlDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PersonControlDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersonControlDoor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A6DA522D1C9A92190033E559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersonControlDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.PersonControlDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersonControlDoor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DA51F01C9A92180033E559 /* Build configuration list for PBXProject "PersonControlDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DA52231C9A92190033E559 /* Debug */,
+				A6DA52241C9A92190033E559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DA52251C9A92190033E559 /* Build configuration list for PBXNativeTarget "PersonControlDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DA52261C9A92190033E559 /* Debug */,
+				A6DA52271C9A92190033E559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6DA52281C9A92190033E559 /* Build configuration list for PBXNativeTarget "PersonControlDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DA52291C9A92190033E559 /* Debug */,
+				A6DA522A1C9A92190033E559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6DA522B1C9A92190033E559 /* Build configuration list for PBXNativeTarget "PersonControlDoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DA522C1C9A92190033E559 /* Debug */,
+				A6DA522D1C9A92190033E559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6DA52041C9A92180033E559 /* PersonControlDoor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6DA52051C9A92180033E559 /* PersonControlDoor.xcdatamodel */,
+			);
+			currentVersion = A6DA52051C9A92180033E559 /* PersonControlDoor.xcdatamodel */;
+			path = PersonControlDoor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6DA51ED1C9A92180033E559 /* Project object */;
+}
